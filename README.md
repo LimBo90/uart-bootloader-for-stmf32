@@ -1,4 +1,4 @@
-# Bootloader for stm32f10 microcontroller
+# Bootloader for stm32f10xx microcontroller
 
 ## 1. States:-
 This bootloader has 3 states

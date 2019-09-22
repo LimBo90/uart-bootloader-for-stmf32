@@ -55,5 +55,5 @@ There are 4 values that's configured in `Bootloader_config.h`
 >python sendHexFile.py [com-port] [baudrate] [file-location]
 
   __Example__:-
->python sendHexFile.py com3 57600 "../examples/BLINKING_LED.hex"
+>python sendHexFile.py com3 57600 ".\examples\BLINKING_LED.hex"
      

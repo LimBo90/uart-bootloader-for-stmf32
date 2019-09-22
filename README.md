@@ -20,7 +20,8 @@ This bootloader has 3 states
    * if an error occurred during parsing the line or writing it to flash, the bootloader responds with `ERR: <cause of error>\r`.
    * The bootloader also sends logs about what's currently doing these logs will have the format `LOG: <log message>\r`.
 1. After all lines are written sucessfully and the bootloader receives `EOF` the boot loader jumps to application.
-#### note
+
+__Note__:-
  pin PC13 is an indicator. As long as the bootloader is running PC13 is HIGH. return to LOW when the bootloader is jumping to application. 
   ### Errors returned by bootloader
    * `ERR: Checksum error\r` checksum calculated by bootloader doesn't match the one in hex record.
